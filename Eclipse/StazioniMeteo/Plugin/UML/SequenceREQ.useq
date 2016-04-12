@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true">  
+  <object id="1" language="java" name="it.unibo.system.StationTH" project="StazioniMeteo" 
+    file="/StazioniMeteo/src/it/unibo/system/StationTH.java" binary="false" label="stationTH" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="193" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="78" x="5" y="147"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="it.unibo.interfaces.StationRPI" project="StazioniMeteo" 
+    file="/StazioniMeteo/src/it/unibo/interfaces/StationRPI.java" binary="false" label="stationRPI" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="316" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="83" x="87" y="168"/>    
+    </execution>  
+  </object>  
+  <message id="3">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>
+</sequence-diagram>

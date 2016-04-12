@@ -1,0 +1,29 @@
+package it.unibo.system;
+
+public interface CommunicatorSQL {
+
+	/**
+	 * Used for update state on DB
+	 * 
+	 * @param stationID
+	 *            Station to update
+	 * @param stat
+	 *            Actual State of Station
+	 */
+	public abstract void stationStateUpdate(String stationID, String stat);
+
+	/**
+	 * 
+	 * Used to update state of sensor on DB
+	 * 
+	 * @param stationID
+	 *            stationID Station for link on DB
+	 * @param sensor
+	 *            Sensor to update
+	 * @param stat
+	 *            Actual state of Sensor
+	 */
+	public abstract void sensorStateUpdate(String stationID, String sensor,
+			String stat);
+
+}

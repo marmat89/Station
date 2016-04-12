@@ -1,0 +1,25 @@
+package it.unibo.system;
+
+import it.unibo.interfaces.IStation;
+
+public interface CommunicatorNoSQL extends Communicator{
+
+	/**
+	 * Send measure to DB need to know Sation and his last Update measure list
+	 * read all measure and update them to DB
+	 * 
+	 */
+	public void sendMes(String Asd);
+	/**
+	 * Used for Connect to DB
+	 * 
+	 */
+	public void turnOffConnection();
+	
+	/**
+	 * Used for Disconnect to DB
+	 * 
+	 */
+	public void turnOnConnection();
+	
+}

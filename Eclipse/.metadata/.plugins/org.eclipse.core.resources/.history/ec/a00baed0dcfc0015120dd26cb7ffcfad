@@ -1,0 +1,29 @@
+package it.unibo.system;
+
+import java.net.UnknownHostException;
+
+import com.mongodb.DB;
+import com.mongodb.MongoClient;
+
+public class MongoCom {
+
+	public static void main(String[] args) {
+
+		MongoClient mongoClient;
+		try {
+			mongoClient = new MongoClient( "ds019480.mlab.com" , 19480 );
+			DB database = mongoClient.getDB("esn_nosql" ); 
+			boolean auth = database.authenticate("marmat89", "28mamprenar".toCharArray());
+			if (auth){
+				System.out.println("Autentication Success");
+			}else{
+
+				System.out.println("Autentication Fail");
+			}
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	}
+	
+}

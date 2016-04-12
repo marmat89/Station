@@ -1,0 +1,14 @@
+1460396372543	Extract interface 'Communicator'
+1460396760317	Extract superclass 'CommunicatorSQL'
+1460396785129	Delete element
+1460397364298	Extract interface 'CommunicatorSQL'
+1460403224219	Delete element
+1460405460288	Extract superclass 'CommunicatorSQL'
+1460405488811	Delete element
+1460408260032	Copy compilation unit
+1460409211940	Extract interface 'CommunicationNOSQL'
+1460409243355	Delete element
+1460409265652	Delete element
+1460409283198	Rename type 'CommunicationNOSQL'
+1460409349693	Rename type 'Communication'
+1460409671468	Copy compilation unit

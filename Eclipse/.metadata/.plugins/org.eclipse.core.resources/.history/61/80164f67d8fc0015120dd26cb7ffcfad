@@ -1,0 +1,10 @@
+package it.unibo.system;
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoDatabase;
+public class MongoCom {
+
+	public static void main(String[] args) {
+	MongoClient mongoClient = new MongoClient("ds019480.mlab.com",19480);
+	MongoDatabase db = mongoClient.getDatabase("bios");
+	}
+}

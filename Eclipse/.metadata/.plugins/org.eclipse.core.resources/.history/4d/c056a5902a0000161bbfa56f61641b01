@@ -1,0 +1,59 @@
+package it.unibo.system;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import it.unibo.interfaces.StationRPI;
+import it.unibo.util.*;
+
+/**
+ * a machine can be used as a source of data, this class allows you to query
+ * each sensor periodically to update the data on the server. through a default
+ * timing we can interrogate each sensor at regular intervals.
+ * 
+ * @author matteo.mariani11@studio.unibo.it
+ * @version 1.0.0
+ * @since 06/feb/2015 01:36:19
+ *
+ */
+public class StationTH implements Runnable {
+	StationRPI s;
+	Communication sm;
+	private int UpdeteTime;
+
+	/**
+	 * we create the thread that interrogates the sensors, indicating the
+	 * station of competence
+	 * 
+	 * @param s
+	 *            Sation where we can send request
+	 */
+	public void ThreadCreation(StationRPI s) {
+		this.s = s;
+		Configurator conf = new Configurator("conf.xml", "configuration");
+		 UpdeteTime=(conf.getTagValueINT("DEBUG")*1000);
+		// THREAD finder Start
+		Thread thUpdate = new Thread(this);
+		thUpdate.start();
+	}
+
+	/**
+	 * Thread Start
+	 */
+	@Override
+	public void run() {
+		while (true) {
+			sm = new DbCom();
+			try {
+				if (s.monitorUpdates() != null) {
+					sm.sendMes(s, s.mesList);
+				}
+				Thread.sleep(UpdeteTime);
+				sm.turnOffConnection();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+}
