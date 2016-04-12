@@ -90,8 +90,8 @@ public class OnBoardDebugger {
 		AirMonitor ar = new AirMonitor("testAirMonitor", new Coordinate(0, 0),
 				3);
 		OnBoardDebugger SRP = new OnBoardDebugger(ar);
-		SRP.SerialReplyProblem(new RainSensorArduino("RAINECO", "RL"));
-		SRP.SerialOccupatedProblem(new RainSensorArduino("RAINECO", "RL"));
+		SRP.SerialReplyProblem(new RainSensorArduino("RAINECO", "RL",""));
+		SRP.SerialOccupatedProblem(new RainSensorArduino("RAINECO", "RL",""));
 
 	}
 

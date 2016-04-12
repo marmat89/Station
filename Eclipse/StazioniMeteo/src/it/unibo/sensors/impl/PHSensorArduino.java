@@ -26,8 +26,8 @@ public class PHSensorArduino extends SensorArduino {
 	 * @param type
 	 * @param deb
 	 */
-	public PHSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public PHSensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM,deb);
 	}
 
 	/**
@@ -37,8 +37,8 @@ public class PHSensorArduino extends SensorArduino {
 	 * @param name
 	 * @param type
 	 */
-	public PHSensorArduino(String name, String type) {
-		super(name, type);
+	public PHSensorArduino(String name, String type, String UOM) {
+		super(name, type, UOM);
 
 	}
 
@@ -56,7 +56,9 @@ public class PHSensorArduino extends SensorArduino {
 			arduino.sendData("getPH=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
-			return getFloatValue();
+			IMeasure mes=getFloatValue();
+			mes.setUOM(getUOM());
+			return mes;
 		} else
 			return null;
 	}
@@ -64,7 +66,7 @@ public class PHSensorArduino extends SensorArduino {
 	
 
 	public static void main(String[] args) {
-		PHSensorArduino testSens = new PHSensorArduino("PHS", "PH_");
+		PHSensorArduino testSens = new PHSensorArduino("PHS", "PH_","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

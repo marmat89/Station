@@ -43,8 +43,8 @@ public class HumidSensorArduino extends SensorArduino {
 	 * @param name
 	 * @param type
 	 */
-	public HumidSensorArduino(String name, String type) {
-		super(name, type);
+	public HumidSensorArduino(String name, String type, String UOM) {
+		super(name, type, UOM);
 	}
 
 	/**
@@ -55,8 +55,8 @@ public class HumidSensorArduino extends SensorArduino {
 	 * @param type
 	 * @param deb
 	 */
-	public HumidSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public HumidSensorArduino(String name, String type,String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM, deb);
 	}
 
 	/**
@@ -82,7 +82,7 @@ public class HumidSensorArduino extends SensorArduino {
 	}
 
 	public static void main(String[] args) {
-		HumidSensorArduino testSens = new HumidSensorArduino("DHT11", "HMD");
+		HumidSensorArduino testSens = new HumidSensorArduino("DHT11", "HMD","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Arduino measure:"

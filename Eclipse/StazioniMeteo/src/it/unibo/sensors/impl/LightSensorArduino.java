@@ -37,8 +37,8 @@ public class LightSensorArduino extends SensorArduino {
 	 * @param type
 	 * @param deb
 	 */
-	public LightSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public LightSensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM,deb);
 	}
 	/**
 	 * We must enter reference data on DB,we can have sensors with or without
@@ -47,11 +47,9 @@ public class LightSensorArduino extends SensorArduino {
 	 * @param name
 	 * @param type
 	 */
-	public LightSensorArduino(String name, String type) {
-		super(name, type);
-
+	public LightSensorArduino(String name, String type,String UOM) {
+		super(name, type, UOM);
 	}
-
 	/**
 	 * All physical sensors must implement getSurvey () Depending on the type of
 	 * data that is required have all the same iter: OPEN port => SEND request
@@ -73,7 +71,7 @@ public class LightSensorArduino extends SensorArduino {
 	}
 
 	public static void main(String[] args) {
-		LightSensorArduino testSens = new LightSensorArduino("LDRGL5528", "LGH");
+		LightSensorArduino testSens = new LightSensorArduino("LDRGL5528", "LGH","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

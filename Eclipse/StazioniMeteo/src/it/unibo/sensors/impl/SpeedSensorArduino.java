@@ -13,8 +13,8 @@ public class SpeedSensorArduino extends SensorArduino {
 	 * @param type
 	 * @param deb
 	 */
-	public SpeedSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public SpeedSensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM,deb);
 	}
 
 	/**
@@ -24,8 +24,8 @@ public class SpeedSensorArduino extends SensorArduino {
 	 * @param name
 	 * @param type
 	 */
-	public SpeedSensorArduino(String name, String type) {
-		super(name, type);
+	public SpeedSensorArduino(String name, String type, String UOM) {
+		super(name, type, UOM);
 	}
 
 	/**
@@ -48,7 +48,7 @@ public class SpeedSensorArduino extends SensorArduino {
 	}
 
 	public static void main(String[] args) {
-		SpeedSensorArduino testSens = new SpeedSensorArduino("HC020K", "SPD");
+		SpeedSensorArduino testSens = new SpeedSensorArduino("HC020K", "SPD","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

@@ -69,12 +69,12 @@ public class Builder {
 	 */
 	public void addAirSensor() {
 		OnBoardDebugger deb = new OnBoardDebugger(testAir);
-		testAir.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP",
+		testAir.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP","°",
 				deb));
-		testAir.addHumiditySensor(new HumidSensorArduino("DHT11", "HMD", deb));
-		testAir.addLightSensor(new LightSensorArduino("LDRGL5528", "LGH", deb));
-		testAir.addRainSensor(new RainSensorArduino("RAINECO", "RL", deb));
-		testAir.addSpeedSensor(new SpeedSensorArduino("HC020K", "SPD", deb));
+		testAir.addHumiditySensor(new HumidSensorArduino("DHT11", "HMD","%", deb));
+		testAir.addLightSensor(new LightSensorArduino("LDRGL5528", "LGH","%", deb));
+		testAir.addRainSensor(new RainSensorArduino("RAINECO", "RL","%", deb));
+		testAir.addSpeedSensor(new SpeedSensorArduino("HC020K", "SPD","km/h", deb));
 	}
 
 	/**
@@ -83,11 +83,11 @@ public class Builder {
 	public void addGroundSensor() {
 		
 		OnBoardDebugger deb = new OnBoardDebugger(testGND);
-		testGND.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP",
+		testGND.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP","°",
 				deb));
 		// testGND.addTiltSensor(new TiltSensorSim("TLTECO", "ALL"));
-		testGND.addHumiditySensor(new HumidSensorArduino("HGMECO", "HMD", deb));
-		testGND.addDipSensor(new ShockSensorArduino("TLTECO", "ALL", deb));
+		testGND.addHumiditySensor(new HumidSensorArduino("HGMECO", "HMD","%", deb));
+		testGND.addDipSensor(new ShockSensorArduino("TLTECO", "ALL","#", deb));
 
 	}
 

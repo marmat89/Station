@@ -140,9 +140,9 @@ public class AirMonitor extends StationRPI {
 
 		System.out.println("Create new STATION name:" + testAir.name);
 		testAir.addTemperatureSensor(new TempSensorSim("DHT11", "TMP"));
-		testAir.addHumiditySensor(new HumidSensorArduino("DHT11", "HMD", deb));
-		testAir.addLightSensor(new LightSensorArduino("LDRGL5528", "LGH", deb));
-		testAir.addRainSensor(new RainSensorArduino("RAINECO", "RL"));
+		testAir.addHumiditySensor(new HumidSensorArduino("DHT11", "HMD", "%",deb));
+		testAir.addLightSensor(new LightSensorArduino("LDRGL5528", "LGH", "%",deb));
+		testAir.addRainSensor(new RainSensorArduino("RAINECO","%","RL"));
 		// testAir.addSpeedSensor(new SpeedSensorArduino("HC020K", "SPD",deb));
 		System.out.println(testAir.monitorUpdates());
 	}

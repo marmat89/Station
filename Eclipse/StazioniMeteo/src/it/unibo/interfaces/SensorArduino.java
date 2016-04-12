@@ -30,6 +30,11 @@ public abstract class SensorArduino extends Sensor implements Observer {
 	public String value;
 	protected SerialCom arduino;
 	private AttendRispThread attendRisp;
+	private String UOM;
+	public String getUOM() {
+		return UOM;
+	}
+
 	public OnBoardDebugger deb;
 
 	/**
@@ -40,11 +45,12 @@ public abstract class SensorArduino extends Sensor implements Observer {
 	 * @param type
 	 *            Data type of replay
 	 */
-	public SensorArduino(String name, String type) {
+	public SensorArduino(String name, String type, String UOM) {
 		super(type, reliability, type);
 		this.name = name;
 		this.reliability = true;
 		this.datatype = type;
+		this.UOM=UOM;
 	}
 
 	/**
@@ -57,12 +63,13 @@ public abstract class SensorArduino extends Sensor implements Observer {
 	 * @param deb
 	 *            Debugger component used for check problem with serial com
 	 */
-	public SensorArduino(String name, String type, OnBoardDebugger deb) {
+	public SensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
 		super(type, reliability, type);
 		this.name = name;
 		this.reliability = true;
 		this.datatype = type;
 		this.deb = deb;
+		this.UOM=UOM;
 	}
 
 	/**

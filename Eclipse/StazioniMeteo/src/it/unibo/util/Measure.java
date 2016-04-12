@@ -35,6 +35,13 @@ public static void main(String[] args) {
 public String getUOM() {
 	return UOM;
 }
+/* (non-Javadoc)
+ * @see it.unibo.util.IMeasure#getUOM()
+ */
+@Override
+public void setUOM(String UOM) {
+	this.UOM=UOM;
+}
 
 /* (non-Javadoc)
  * @see it.unibo.util.IMeasure#isSimulated()

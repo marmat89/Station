@@ -13,8 +13,8 @@ public class ShockSensorArduino extends SensorArduino {
 	 * @param type
 	 * @param deb
 	 */
-	public ShockSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public ShockSensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM,deb);
 	}
 
 	/**
@@ -24,8 +24,8 @@ public class ShockSensorArduino extends SensorArduino {
 	 * @param name
 	 * @param type
 	 */
-	public ShockSensorArduino(String name, String type) {
-		super(name, type);
+	public ShockSensorArduino(String name, String type, String UOM) {
+		super(name, type, UOM);
 	}
 
 	/**
@@ -48,7 +48,7 @@ public class ShockSensorArduino extends SensorArduino {
 	}
 
 	public static void main(String[] args) {
-		ShockSensorArduino testSens = new ShockSensorArduino("HC020K", "SPD");
+		ShockSensorArduino testSens = new ShockSensorArduino("HC020K", "SPD","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

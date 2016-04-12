@@ -24,8 +24,8 @@ public class LevelSensorArduino extends SensorArduino {
 	 * @param type
 	 * @param deb
 	 */
-	public LevelSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public LevelSensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM,deb);
 	}
 
 	/**
@@ -35,8 +35,8 @@ public class LevelSensorArduino extends SensorArduino {
 	 * @param name
 	 * @param type
 	 */
-	public LevelSensorArduino(String name, String type) {
-		super(name, type);
+	public LevelSensorArduino(String name, String type, String UOM) {
+		super(name, type, UOM);
 	}
 
 	/**
@@ -59,7 +59,7 @@ public class LevelSensorArduino extends SensorArduino {
 	}
 
 	public static void main(String[] args) {
-		LevelSensorArduino testSens = new LevelSensorArduino("WSECO", "WL");
+		LevelSensorArduino testSens = new LevelSensorArduino("WSECO", "WL","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

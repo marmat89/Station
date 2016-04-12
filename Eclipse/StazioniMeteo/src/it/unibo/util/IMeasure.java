@@ -21,6 +21,12 @@ public interface IMeasure {
 	 * 
 	 * @return
 	 */
+	public void setUOM(String uom);
+
+	/**
+	 * 
+	 * @return
+	 */
 	public boolean isSimulated();
 
 	/**

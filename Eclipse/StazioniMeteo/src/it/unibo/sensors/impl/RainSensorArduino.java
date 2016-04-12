@@ -28,8 +28,8 @@ public class RainSensorArduino extends SensorArduino implements Observer {
 	 * @param type
 	 * @param deb
 	 */
-	public RainSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public RainSensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM,deb);
 		// TODO Auto-generated constructor stub
 	}
 	/**
@@ -39,8 +39,8 @@ public class RainSensorArduino extends SensorArduino implements Observer {
 	 * @param name
 	 * @param type
 	 */
-	public RainSensorArduino(String name, String type) {
-		super(name, type);
+	public RainSensorArduino(String name, String type, String UOM) {
+		super(name, type, UOM);
 
 	}
 
@@ -72,7 +72,7 @@ public class RainSensorArduino extends SensorArduino implements Observer {
 	}
 
 	public static void main(String[] args) {
-		RainSensorArduino testSens = new RainSensorArduino("RAINECO", "RL");
+		RainSensorArduino testSens = new RainSensorArduino("RAINECO", "RL","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

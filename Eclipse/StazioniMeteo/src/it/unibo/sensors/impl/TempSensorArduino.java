@@ -26,8 +26,8 @@ public class TempSensorArduino extends SensorArduino {
 	 * @param type
 	 * @param deb
 	 */
-	public TempSensorArduino(String name, String type, OnBoardDebugger deb) {
-		super(name, type, deb);
+	public TempSensorArduino(String name, String type, String UOM, OnBoardDebugger deb) {
+		super(name, type, UOM,deb);
 	}
 
 	/**
@@ -37,8 +37,8 @@ public class TempSensorArduino extends SensorArduino {
 	 * @param name
 	 * @param type
 	 */
-	public TempSensorArduino(String name, String type) {
-		super(name, type);
+	public TempSensorArduino(String name, String type, String UOM) {
+		super(name, type, UOM);
 
 	}
 
@@ -64,7 +64,7 @@ public class TempSensorArduino extends SensorArduino {
 	
 
 	public static void main(String[] args) {
-		TempSensorArduino testSens = new TempSensorArduino("DHT11", "HMD");
+		TempSensorArduino testSens = new TempSensorArduino("DHT11", "HMD","");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

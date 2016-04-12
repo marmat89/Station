@@ -132,7 +132,7 @@ public class GroundMonitor extends StationRPI {
 		testGND.addTemperatureSensor(new TempSensorSim("DS18B20", "TMP"));
 		// testGND.addTiltSensor(new TiltSensorSim("TLTECO", "ALL"));
 		testGND.addHumiditySensor(new HumidSensorSim("DHT11", "HMD"));
-		testGND.addDipSensor(new ShockSensorArduino("FC01", "ALL"));
+		testGND.addDipSensor(new ShockSensorArduino("FC01", "ALL","#"));
 		testGND.monitorUpdates();
 	}
 
