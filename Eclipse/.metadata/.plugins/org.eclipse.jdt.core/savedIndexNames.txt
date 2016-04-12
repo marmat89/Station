@@ -5,7 +5,6 @@ INDEX VERSION 1.127+D:\General Workspace\TESI\StationESN\Eclipse\.metadata\.plug
 2959957318.index
 2899965704.index
 1233791618.index
-149277254.index
 3618673065.index
 2292250293.index
 3349413686.index
