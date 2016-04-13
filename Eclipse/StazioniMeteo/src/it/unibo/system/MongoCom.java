@@ -5,8 +5,10 @@ import it.unibo.util.AssembledList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
+import com.google.gson.Gson;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -25,40 +27,40 @@ import java.text.SimpleDateFormat;
 import java.util.Locale;
 
 import static java.util.Arrays.asList;
-
+import com.google.gson.Gson;
 public class MongoCom implements Communicator{
 
 	private String user;
 	private String database;
+	private String collectionName;
 	private char[] password;
 	private MongoClient mongoClient;
 	private DB dataBase;
 	private DBCollection collection;
 	
 	
-	public MongoCom(String user, String database, char[] password) {
+	public MongoCom(String user, String database, char[] password, String collectionName) {
 		super();
 		this.user = user;
 		this.database = database;
-		this.password = password;		
-	}
-
-	public void sendMes() {
+		this.password = password;	
+		this.collectionName = collectionName;	
 		
-		String json = "{'database' : 'mkyongDB','table' : 'hosting'," +
-				  "'detail' : {'records' : 99, 'index' : 'vps_index1', 'active' : 'true'}}}";
-
-				DBObject dbObject = (DBObject)JSON.parse(json);
-						
-				collection.insert(dbObject);
-	}	
+	}
 
 
 	
 
 	public boolean testConnection(String DataBaseName){
+		
 		if(dataBase.getCollection(DataBaseName) != null){
 			System.out.println("Connected to DataBase:" + DataBaseName);
+			System.out.println("SEND TO NOSQL");
+			String json = "{'database' : 'mkyongDB','table' : 'hosting'," +
+					  "'detail' : {'records' : 99, 'index' : 'vps_index1', 'active' : 'true'}}}";
+					DBObject dbObject = (DBObject)JSON.parse(json);
+					collection=dataBase.getCollection(DataBaseName);
+					collection.insert(dbObject);
 			return true;
 			}
 		System.err.println("Connection Failed to DataBase:" + DataBaseName);
@@ -67,7 +69,7 @@ public class MongoCom implements Communicator{
 	
 	public static void main(String[] args) {
 
-		MongoCom mc= new MongoCom("marmat89","esn_nosql","28mamprenar".toCharArray());
+		MongoCom mc= new MongoCom("marmat89","esn_nosql","28mamprenar".toCharArray(),"test");
 		
 		mc.turnOnConnection();
 		
@@ -78,8 +80,14 @@ public class MongoCom implements Communicator{
 
 	@Override
 	public void sendMes(StationRPI stat, List<AssembledList> lastUpdate) {
-		// TODO Auto-generated method stub
-		
+	
+		Iterator it=lastUpdate.iterator();
+		while(it.hasNext()){
+			Gson gson = new Gson();
+	        String jsonString = gson.toJson(it.next());
+					DBObject dbObject = (DBObject)JSON.parse(jsonString);
+					collection.insert(dbObject);
+		}
 	}
 
 	@Override
@@ -93,11 +101,12 @@ public class MongoCom implements Communicator{
 		MongoCredential credential = MongoCredential.createCredential(user,
                 database,
                 password);
-		
 		mongoClient = new MongoClient(new ServerAddress(
 				"ds019480.mlab.com", 19480),
 				Arrays.asList(credential));
 
 		dataBase = mongoClient.getDB("esn_nosql");
+		
+		collection=dataBase.getCollection(collectionName);
 	}	
 }

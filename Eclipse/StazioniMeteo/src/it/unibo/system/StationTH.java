@@ -17,6 +17,11 @@ import it.unibo.util.*;
  *
  */
 public class StationTH implements Runnable {
+	public StationTH(Communicator sm) {
+		super();
+		this.sm = sm;
+	}
+
 	StationRPI s;
 	Communicator sm;
 	private int UpdeteTime;
@@ -43,8 +48,8 @@ public class StationTH implements Runnable {
 	@Override
 	public void run() {
 		while (true) {
-			sm = new DbCom();
 			try {
+				sm.turnOnConnection();
 				if (s.monitorUpdates() != null) {
 					sm.sendMes(s, s.mesList);
 				}

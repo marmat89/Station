@@ -36,7 +36,7 @@ public class Builder {
 	 *            DB PrimaryKey
 	 */
 	public void CreateMonitor(String type, String name, Coordinate coord,
-			int key) {
+			int key, String communication) {
 		StationRPI stat = null;
 		switch (type) {
 		case "Air":
@@ -60,7 +60,15 @@ public class Builder {
 			System.out.println("Invalid month");
 			break;
 		}
-		StationTH simStat = new StationTH();
+		StationTH simStat=null;
+		switch (communication) {
+		case "SQL":
+			 simStat = new StationTH(new DbCom());
+			break;
+		case "NOSQL":
+			 simStat = new StationTH(new MongoCom("marmat89","esn_nosql","28mamprenar".toCharArray(),"test"));
+			break;
+		}
 		simStat.ThreadCreation(stat);
 	}
 
@@ -104,8 +112,8 @@ public class Builder {
 	public static void main(String[] args) throws InterruptedException {
 		
 		Builder bl = new Builder();
-		bl.CreateMonitor("Air", "SimulatedAirStationCesena", new Coordinate(
-				44.139307, 12.237057), 3);
+		bl.CreateMonitor("Water", "SimulatedWaterStationCesena", new Coordinate(
+				44.139307, 12.237057), 3, "NOSQL");
 //		bl.CreateMonitor("Ground", "SimulatedGroundStationCesena",
 //				new Coordinate(44.139307, 12.237057), 2);
 
