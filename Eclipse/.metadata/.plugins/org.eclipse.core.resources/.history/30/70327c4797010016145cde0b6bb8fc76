@@ -2,7 +2,6 @@ package it.unibo.system;
 
 import it.unibo.interfaces.StationRPI;
 import it.unibo.util.AssembledList;
-import it.unibo.util.MongoMeasure;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -85,9 +84,7 @@ public class MongoCom implements Communicator{
 		Iterator it=lastUpdate.iterator();
 		while(it.hasNext()){
 			Gson gson = new Gson();
-			AssembledList element = (AssembledList) it.next();
-			MongoMeasure mm = new MongoMeasure(stat.getName(), stat.ID, stat.getPosition().getLat(), stat.getPosition().getLon(), element.sen.getName(), element.sen.getDatatype(), element.sen.getSurvey().getValue(),element.sen.getSurvey().getUOM());
-	        String jsonString = gson.toJson(mm);
+	        String jsonString = gson.toJson(it.next());
 					DBObject dbObject = (DBObject)JSON.parse(jsonString);
 					collection.insert(dbObject);
 		}

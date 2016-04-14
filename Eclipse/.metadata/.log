@@ -1540,3 +1540,91 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY mirur.mirur-ui 1 0 2016-04-13 12:37:44.752
 !MESSAGE 12:37:44    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: WGL_EXT_swap_control
 
+
+!ENTRY mirur.mirur-ui 4 0 2016-04-13 19:18:08.887
+!MESSAGE 19:18:08  SEVERE: Worker-21 - StatisticsCollector.run: Error submitting statistics
+                                                       javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+                                                       	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+                                                       	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+                                                       	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+                                                       	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+                                                       	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+                                                       	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+                                                       	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+                                                       	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+                                                       	at mirur.plugin.StatisticsCollector$SubmitStatsJob.run(StatisticsCollector.java:150)
+                                                       	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+                                                       Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+                                                       	at sun.security.validator.PKIXValidator.doValidate(Unknown Source)
+                                                       	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+                                                       	at sun.security.validator.Validator.validate(Unknown Source)
+                                                       	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+                                                       	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+                                                       	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+                                                       	... 15 more
+                                                       Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+                                                       	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source)
+                                                       	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+                                                       	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+                                                       	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source)
+                                                       	at java.security.cert.CertPathValidator.validate(Unknown Source)
+                                                       	... 21 more
+                                                       Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 29 00:59:59 CET 2015
+                                                       	at sun.security.x509.CertificateValidity.valid(Unknown Source)
+                                                       	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source)
+                                                       	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(Unknown Source)
+                                                       	at sun.security.provider.certpath.BasicChecker.check(Unknown Source)
+                                                       	... 26 more
+                                                       
+
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+	at mirur.plugin.StatisticsCollector$SubmitStatsJob.run(StatisticsCollector.java:150)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 15 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source)
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source)
+	at java.security.cert.CertPathValidator.validate(Unknown Source)
+	... 21 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 29 00:59:59 CET 2015
+	at sun.security.x509.CertificateValidity.valid(Unknown Source)
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(Unknown Source)
+	at sun.security.provider.certpath.BasicChecker.check(Unknown Source)
+	... 26 more
