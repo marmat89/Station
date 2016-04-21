@@ -26,8 +26,11 @@ unsigned long starttime;
 unsigned long lowpulseoccupancy = 0;
   
 
-float dustDensity=0;
-float dustDensityMG=0;
+float dustDensity05=0;
+
+float dustDensity1=0;
+
+float dustDensity25=0;
 
 //COUNTER : count of succes and error 
 int errorCount=0;
@@ -42,21 +45,10 @@ void setup() {
 
 void loop()
 {
-  if (stringComplete) {
-    // confirm values received in serial monitor window
-    //Serial.println(inputString);
-    if (inputString=="getPH"){
-      //Serial.println("--Arduino exeCommand: getTemp ");
-      Serial.println(getPH());
-    }
-    if (inputString=="getPM"){
-      //Serial.println("--Arduino exeCommand: getSpeed ");
-      Serial.println(dustDensity); 
-    } 
-    inputString = "";
-    stringComplete = false;
-  }
-  getPM();
+  
+  dustDensity05=getPM(8);
+  dustDensity1=getPM(9);
+  dustDensity25=getPM(11);
 }
 
 float getPH()
@@ -88,12 +80,13 @@ float getPH()
 
 
 
-int getPM(){
-  
+float getPM(int pm){
   float calcVoltage = 0;
   float ratio = 0;
+  float dustDensity=0;
+  float dustDensityMG=0;
   while (dustDensity==0){
-  duration = pulseIn(pin, LOW);
+  duration = pulseIn(pm, LOW);
   lowpulseoccupancy = lowpulseoccupancy+duration;
   if ((millis()-starttime) > sampletime_ms )
     {
@@ -105,35 +98,18 @@ int getPM(){
       dustDensityMG = (0.172 * calcVoltage - 0.00999);
       if (ratio>0)
         {
-        delay(1000);              // wait for a second
         successCount++;
-        //Serial.print("Shinyei_PM_1");
-        //Serial.print('&');
-        //printDouble(calcVoltage,4);
-        //Serial.print('&');
-        //Serial.print((float)dustDensity);
-        //Serial.print('&');
-        //printDouble((float)dustDensityMG,8);
-        //Serial.print('&');
-        //Serial.println(successCount);
       }else{
-        delay(1000);              // wait for a second
         errorCount++;
-        //Serial.print("ERROR");
-        //Serial.print('&');
-        //Serial.print("Shinyei_PM_1");
-        //Serial.print('&');
-        //Serial.print("001_negative voltage");
-        //Serial.print('&');
-        //Serial.println(errorCount);
       }
       lowpulseoccupancy = 0;
       starttime = millis();
     }
   }
-
   return (float) dustDensity;
-}
+    
+  }
+
 
 void serialEvent() {
   while (Serial.available()) {
@@ -142,6 +118,28 @@ void serialEvent() {
     // add it to the inputString:
     if (inChar == '=') {
       stringComplete = true;
+      if (stringComplete) {
+    // confirm values received in serial monitor window
+    //Serial.println(inputString);
+    if (inputString=="getPH"){
+      //Serial.println("--Arduino exeCommand: getTemp ");
+      Serial.println(getPH());
+    }
+    if (inputString=="getPM05"){
+      //Serial.println("--Arduino exeCommand: getSpeed ");
+      Serial.println(dustDensity05); 
+    } 
+    if (inputString=="getPM1"){
+      //Serial.println("--Arduino exeCommand: getSpeed ");
+      Serial.println(dustDensity1); 
+    } 
+    if (inputString=="getPM25"){
+      //Serial.println("--Arduino exeCommand: getSpeed ");
+      Serial.println(dustDensity25); 
+    } 
+    inputString = "";
+    stringComplete = false;
+  }
     } 
     else{
       inputString += inChar;

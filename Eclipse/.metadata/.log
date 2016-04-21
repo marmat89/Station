@@ -1642,3 +1642,1809 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-04-18 14:47:33.944 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-18 14:47:44.545
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\MarMat89-PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-04-18 18:24:52.945
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+!SESSION 2016-04-19 11:33:23.647 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-19 11:33:34.509
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\MarMat89-PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-04-19 11:44:18.566
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:39.299
+!MESSAGE 2016-04-19 11:49:39 CEST
+11:49:39    FINE: main - StatisticsCollector.log: Using plugin version 1.1.1.201512011600
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.935
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Vendor: NVIDIA Corporation
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.936
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Vendor Documentation: The company responsible for this GL implementation. This name does not change from release to release.
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.936
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Renderer: GeForce GTX 760/PCIe/SSE2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.936
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Renderer Documentation: The name of the renderer. This name is typically specific to a particular configuration of a hardware platform. It does not change from release to release.
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.937
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Version: 4.5.0 NVIDIA 364.72
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.937
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Version Documentation: A version or release number.
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.938
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Shader Version: 4.50 NVIDIA
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.938
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLVersionInfo: OpenGL Shader Version Documentation: A version or release number for the shading language.
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.939
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLMaximumValues: OpenGL Max Vertex Attributes: 16
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.940
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLMaximumValues: OpenGL Max Geometry Outputs: 1024
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.940
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLMaximumValues: OpenGL Max Texture Edge Length: 16384
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.941
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLMaximumValues: OpenGL Max Texture Buffer Size: 134217728
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.941
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLMaximumValues: OpenGL Max Element Indices: 1048576
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.942
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLMaximumValues: OpenGL Max Element Vertices: 1048576
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.942
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: 24 bits depth
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.942
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties:  0 bits stencil
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.943
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties:  0 bits color-index
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.943
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties:  8 bits red
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.944
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties:  8 bits green
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.944
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties:  8 bits blue
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.945
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties:  0 bits alpha
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.945
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: 16 bits accum red
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.945
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: 16 bits accum green
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.946
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: 16 bits accum blue
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.946
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: 16 bits accum alpha
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.947
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: 112 bits TOTAL
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.947
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: is double buffered
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.948
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLBufferProperties: init(): buffer-properties: is NOT stereo
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.948
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: 323 OpenGL extenstions found: GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_import_sync_object GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KTX_buffer_region GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.949
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: 323 OpenGL extenstions found.
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.950
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_AMD_multi_draw_indirect
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.950
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_AMD_seamless_cubemap_per_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.950
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_arrays_of_arrays
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.951
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_base_instance
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.951
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_bindless_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.952
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_blend_func_extended
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.952
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_buffer_storage
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.953
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_clear_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.953
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_clear_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.953
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_clip_control
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.954
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_color_buffer_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.954
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_compatibility
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.955
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_compressed_texture_pixel_storage
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.955
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_conservative_depth
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.955
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_compute_shader
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.956
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_compute_variable_group_size
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.956
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_conditional_render_inverted
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.957
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_copy_buffer
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.957
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_copy_image
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.957
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_cull_distance
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.958
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_debug_output
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.958
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_depth_buffer_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.959
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_depth_clamp
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.959
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_depth_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.959
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_derivative_control
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.960
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_direct_state_access
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.960
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_draw_buffers
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.961
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_draw_buffers_blend
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.961
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_draw_indirect
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.962
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_draw_elements_base_vertex
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.962
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_draw_instanced
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.962
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_enhanced_layouts
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.963
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_ES2_compatibility
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.963
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_ES3_compatibility
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.964
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_ES3_1_compatibility
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.964
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_ES3_2_compatibility
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.964
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_explicit_attrib_location
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.965
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_explicit_uniform_location
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.965
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_fragment_coord_conventions
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.966
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_fragment_layer_viewport
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.966
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_fragment_program
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.966
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_fragment_program_shadow
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.967
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_fragment_shader
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.967
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_framebuffer_no_attachments
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.967
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_framebuffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.968
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_framebuffer_sRGB
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.968
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_geometry_shader4
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.968
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_get_program_binary
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.969
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_get_texture_sub_image
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.969
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_gpu_shader5
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.970
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_gpu_shader_fp64
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.970
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_gpu_shader_int64
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.970
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_half_float_pixel
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.971
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_half_float_vertex
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.971
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_imaging
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.972
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_indirect_parameters
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.972
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_instanced_arrays
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.972
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_internalformat_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.973
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_internalformat_query2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.973
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_invalidate_subdata
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.973
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_map_buffer_alignment
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.974
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_map_buffer_range
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.974
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_multi_bind
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.975
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_multi_draw_indirect
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.975
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_multisample
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.975
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_multitexture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.976
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_occlusion_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.976
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_occlusion_query2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.976
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_parallel_shader_compile
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.977
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_pipeline_statistics_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.977
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_pixel_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.977
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_point_parameters
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.978
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_point_sprite
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.978
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_program_interface_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.979
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_provoking_vertex
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.979
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_query_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.979
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_robust_buffer_access_behavior
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.980
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_robustness
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.980
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_sample_shading
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.981
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_sampler_objects
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.981
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_seamless_cube_map
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.981
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_seamless_cubemap_per_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.982
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_separate_shader_objects
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.982
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_atomic_counter_ops
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.982
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_atomic_counters
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.983
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_ballot
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.983
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_bit_encoding
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.984
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_clock
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.984
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_draw_parameters
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.984
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_group_vote
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.985
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_image_load_store
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.985
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_image_size
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.985
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_objects
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.986
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_precision
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.986
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_storage_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.987
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_subroutine
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.987
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_texture_image_samples
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.988
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shader_texture_lod
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.988
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shading_language_100
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.989
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shading_language_420pack
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.989
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shading_language_include
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.989
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shading_language_packing
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.990
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_shadow
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.990
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_sparse_buffer
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.990
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_sparse_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.991
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_stencil_texturing
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.991
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_sync
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.992
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_tessellation_shader
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.992
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_barrier
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.992
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_border_clamp
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.993
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.993
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_buffer_object_rgb32
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.993
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_buffer_range
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.994
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_compression
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.994
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_compression_bptc
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.994
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_compression_rgtc
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.995
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_cube_map
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.995
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_cube_map_array
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.995
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_env_add
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.996
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_env_combine
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.996
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_env_crossbar
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.996
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_env_dot3
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.997
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.997
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_gather
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.998
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_mirror_clamp_to_edge
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.998
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_mirrored_repeat
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.998
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_multisample
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.999
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_non_power_of_two
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.999
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_query_levels
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:41.999
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_query_lod
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.000
+!MESSAGE 11:49:41    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_rectangle
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.000
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_rg
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.000
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_rgb10_a2ui
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.001
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_stencil8
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.001
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_storage
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.001
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_storage_multisample
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.002
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_swizzle
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.002
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_texture_view
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.003
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_timer_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.003
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_transform_feedback2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.003
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_transform_feedback3
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.004
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_transform_feedback_instanced
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.004
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_transform_feedback_overflow_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.004
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_transpose_matrix
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.005
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_uniform_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.005
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_array_bgra
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.005
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_array_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.006
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_attrib_64bit
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.006
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_attrib_binding
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.006
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.007
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_program
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.007
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_shader
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.007
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_type_10f_11f_11f_rev
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.008
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_vertex_type_2_10_10_10_rev
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.008
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_viewport_array
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.009
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ARB_window_pos
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.009
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ATI_draw_buffers
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.009
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ATI_texture_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.010
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_ATI_texture_mirror_once
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.010
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_S3_s3tc
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.011
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_env_add
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.011
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_abgr
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.011
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_bgra
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.012
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_bindable_uniform
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.012
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_blend_color
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.012
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_blend_equation_separate
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.013
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_blend_func_separate
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.013
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_blend_minmax
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.014
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_blend_subtract
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.014
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_compiled_vertex_array
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.014
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_Cg_shader
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.015
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_depth_bounds_test
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.015
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_direct_state_access
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.015
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_draw_buffers2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.016
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_draw_instanced
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.016
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_draw_range_elements
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.016
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_fog_coord
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.017
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_framebuffer_blit
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.017
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_framebuffer_multisample
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.017
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXTX_framebuffer_mixed_formats
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.018
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_framebuffer_multisample_blit_scaled
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.018
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_framebuffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.018
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_framebuffer_sRGB
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.019
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_geometry_shader4
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.019
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_gpu_program_parameters
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.019
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_gpu_shader4
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.020
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_multi_draw_arrays
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.020
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_packed_depth_stencil
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.020
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_packed_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.021
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_packed_pixels
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.021
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_pixel_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.021
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_point_parameters
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.022
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_polygon_offset_clamp
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.022
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_provoking_vertex
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.022
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_rescale_normal
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.023
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_secondary_color
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.023
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_separate_shader_objects
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.024
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_separate_specular_color
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.024
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_shader_image_load_store
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.025
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_shader_integer_mix
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.025
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_shadow_funcs
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.025
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_stencil_two_side
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.026
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_stencil_wrap
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.026
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture3D
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.026
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_array
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.027
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.027
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_compression_dxt1
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.027
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_compression_latc
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.028
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_compression_rgtc
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.028
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_compression_s3tc
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.029
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_cube_map
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.029
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_edge_clamp
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.029
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_env_combine
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.030
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_env_dot3
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.030
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_filter_anisotropic
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.030
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_integer
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.031
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_lod
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.031
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_lod_bias
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.031
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_mirror_clamp
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.032
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.032
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_shared_exponent
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.032
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_sRGB
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.033
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_sRGB_decode
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.033
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_storage
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.034
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_texture_swizzle
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.034
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_timer_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.034
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_transform_feedback2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.035
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_vertex_array
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.035
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_vertex_array_bgra
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.035
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_vertex_attrib_64bit
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.036
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_EXT_import_sync_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.036
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_IBM_rasterpos_clip
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.036
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_IBM_texture_mirrored_repeat
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.037
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_KHR_context_flush_control
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.037
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_KHR_debug
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.037
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_KHR_no_error
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.038
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_KHR_robust_buffer_access_behavior
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.038
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_KHR_robustness
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.038
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_KTX_buffer_region
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.039
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_bindless_multi_draw_indirect
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.039
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_bindless_multi_draw_indirect_count
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.039
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_bindless_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.040
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_blend_equation_advanced
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.040
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_blend_square
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.040
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_command_list
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.041
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_compute_program5
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.041
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_conditional_render
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.041
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_copy_depth_to_color
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.042
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_copy_image
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.042
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_depth_buffer_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.042
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_depth_clamp
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.043
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_draw_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.043
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_draw_vulkan_image
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.043
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_ES1_1_compatibility
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.044
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_ES3_1_compatibility
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.044
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_explicit_multisample
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.044
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_fence
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.045
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_float_buffer
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.045
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_fog_distance
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.045
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_fragment_program
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.046
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_fragment_program_option
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.046
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_fragment_program2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.046
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_framebuffer_multisample_coverage
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.047
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_geometry_shader4
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.047
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_gpu_program4
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.047
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_internalformat_sample_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.048
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_gpu_program4_1
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.048
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_gpu_program5
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.049
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_gpu_program5_mem_extended
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.049
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_gpu_program_fp64
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.049
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_gpu_shader5
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.049
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_half_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.050
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_light_max_exponent
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.050
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_multisample_coverage
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.050
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_multisample_filter_hint
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.051
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_occlusion_query
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.051
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_packed_depth_stencil
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.051
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_parameter_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.052
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_parameter_buffer_object2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.052
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_path_rendering
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.053
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_pixel_data_range
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.053
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_point_sprite
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.053
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_primitive_restart
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.054
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_register_combiners
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.054
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_register_combiners2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.054
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_shader_atomic_counters
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.055
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_shader_atomic_float
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.055
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_shader_buffer_load
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.055
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_shader_storage_buffer_object
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.055
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texgen_reflection
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.056
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_barrier
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.056
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_compression_vtc
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.056
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_env_combine4
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.057
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_multisample
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.057
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_rectangle
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.057
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_shader
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.058
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_shader2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.058
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_texture_shader3
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.059
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_transform_feedback
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.059
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_transform_feedback2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.059
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_uniform_buffer_unified_memory
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.060
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_array_range
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.060
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_array_range2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.060
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_attrib_integer_64bit
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.061
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_buffer_unified_memory
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.061
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_program
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.061
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_program1_1
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.062
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_program2
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.062
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_program2_option
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.062
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_vertex_program3
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.063
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NVX_conditional_render
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.063
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NVX_gpu_memory_info
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.063
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NVX_nvenc_interop
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.064
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_shader_thread_group
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.064
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_NV_shader_thread_shuffle
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.064
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_KHR_blend_equation_advanced
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.065
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_SGIS_generate_mipmap
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.065
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_SGIS_texture_lod
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.065
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_SGIX_depth_texture
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.066
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_SGIX_shadow
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.066
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_SUN_slice_accum
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.066
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: GL_WIN_swap_hint
+
+
+!ENTRY mirur.mirur-ui 1 0 2016-04-19 11:49:42.067
+!MESSAGE 11:49:42    INFO: main - GLCapabilityEventListener.logGLExtensions: OpenGL extension found: WGL_EXT_swap_control
+
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-19 12:12:20.789
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Document does not match the AST
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:119)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:234)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:244)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:377)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:254)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:141)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4305)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2500)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:302)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:302)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:291)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:149)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:162)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:187)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2497)
+	... 12 more
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken0(Scanner.java:1522)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken(Scanner.java:1152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:90)
+	... 16 more
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2016-04-19 12:12:20.790
+!MESSAGE Document does not match the AST
+!STACK 0
+java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4305)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2500)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:302)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:302)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:291)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:234)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:244)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:377)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:254)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:141)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:149)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:162)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:187)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2497)
+	... 12 more
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken0(Scanner.java:1522)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken(Scanner.java:1152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:90)
+	... 16 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-19 12:12:28.795
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Document does not match the AST
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:119)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:234)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:244)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:377)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:254)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:141)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4305)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2500)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:302)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:302)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:291)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:149)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:162)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:187)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2497)
+	... 12 more
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken0(Scanner.java:1522)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken(Scanner.java:1152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:90)
+	... 16 more
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2016-04-19 12:12:28.795
+!MESSAGE Document does not match the AST
+!STACK 0
+java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4305)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2500)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:302)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:302)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:291)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:234)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:244)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:377)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:254)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:141)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:149)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:162)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:187)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2497)
+	... 12 more
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken0(Scanner.java:1522)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken(Scanner.java:1152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:90)
+	... 16 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-19 12:12:28.903
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Document does not match the AST
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:119)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:234)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:244)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:377)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:137)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:184)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:968)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:914)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:910)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:674)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:119)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4305)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2500)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:302)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:302)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:291)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	... 36 more
+Caused by: org.eclipse.core.runtime.CoreException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:149)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:162)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:187)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2497)
+	... 41 more
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken0(Scanner.java:1522)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken(Scanner.java:1152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:90)
+	... 45 more
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2016-04-19 12:12:28.903
+!MESSAGE Document does not match the AST
+!STACK 0
+java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4305)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2500)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:302)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:302)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:291)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:234)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:244)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:377)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:137)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:184)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:968)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:914)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:910)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:674)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:119)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: org.eclipse.core.runtime.CoreException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:149)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:162)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:187)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2497)
+	... 41 more
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken0(Scanner.java:1522)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken(Scanner.java:1152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:90)
+	... 45 more
+
+!ENTRY mirur.mirur-ui 4 0 2016-04-19 17:34:24.270
+!MESSAGE 17:34:24  SEVERE: Worker-21 - StatisticsCollector.run: Error submitting statistics
+                                                       javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+                                                       	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+                                                       	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+                                                       	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+                                                       	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+                                                       	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+                                                       	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+                                                       	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+                                                       	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+                                                       	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+                                                       	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+                                                       	at mirur.plugin.StatisticsCollector$SubmitStatsJob.run(StatisticsCollector.java:150)
+                                                       	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+                                                       Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+                                                       	at sun.security.validator.PKIXValidator.doValidate(Unknown Source)
+                                                       	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+                                                       	at sun.security.validator.Validator.validate(Unknown Source)
+                                                       	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+                                                       	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+                                                       	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+                                                       	... 15 more
+                                                       Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+                                                       	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source)
+                                                       	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+                                                       	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+                                                       	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source)
+                                                       	at java.security.cert.CertPathValidator.validate(Unknown Source)
+                                                       	... 21 more
+                                                       Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 29 00:59:59 CET 2015
+                                                       	at sun.security.x509.CertificateValidity.valid(Unknown Source)
+                                                       	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source)
+                                                       	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(Unknown Source)
+                                                       	at sun.security.provider.certpath.BasicChecker.check(Unknown Source)
+                                                       	... 26 more
+                                                       
+
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+	at mirur.plugin.StatisticsCollector$SubmitStatsJob.run(StatisticsCollector.java:150)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 15 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source)
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source)
+	at java.security.cert.CertPathValidator.validate(Unknown Source)
+	... 21 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 29 00:59:59 CET 2015
+	at sun.security.x509.CertificateValidity.valid(Unknown Source)
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(Unknown Source)
+	at sun.security.provider.certpath.BasicChecker.check(Unknown Source)
+	... 26 more
+!SESSION 2016-04-20 19:28:37.734 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-20 19:28:47.846
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\MarMat89-PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-04-20 19:29:09.359
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory

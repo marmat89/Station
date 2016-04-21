@@ -35,7 +35,7 @@ public class SerialCom extends Observable implements SerialPortEventListener {
 																			// X
 			"/dev/ttyACM0", // Raspberry Pi
 			"/dev/ttyUSB0", // Linux
-			"COM4", // Windows
+			"COM5", // Windows
 	};
 	/**
 	 * A BufferedReader which will be fed by a InputStreamReader converting the
@@ -207,31 +207,31 @@ public class SerialCom extends Observable implements SerialPortEventListener {
 	public static void main(String[] args) throws Exception {
 		SerialCom main = new SerialCom();
 		main.initialize();
-		main.sendData("getTemp=");
+		main.sendData("getPH1=");
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException ie) {
 		}
-		main.sendData("getSpeed=");
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException ie) {
-		}
-		main.sendData("getHumidity=");
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException ie) {
-		}
-		main.sendData("getRain=");
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException ie) {
-		}
-		main.sendData("getLight=");
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException ie) {
-		}
+//		main.sendData("getSpeed=");
+//		try {
+//			Thread.sleep(5000);
+//		} catch (InterruptedException ie) {
+//		}
+//		main.sendData("getHumidity=");
+//		try {
+//			Thread.sleep(5000);
+//		} catch (InterruptedException ie) {
+//		}
+//		main.sendData("getRain=");
+//		try {
+//			Thread.sleep(5000);
+//		} catch (InterruptedException ie) {
+//		}
+//		main.sendData("getLight=");
+//		try {
+//			Thread.sleep(5000);
+//		} catch (InterruptedException ie) {
+//		}
 		main.close();
 
 		// Wait 5 seconds then shutdown

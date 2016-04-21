@@ -1,6 +1,7 @@
 package it.unibo.system;
 
 import it.unibo.debugger.OnBoardDebugger;
+import it.unibo.interfaces.Sensor;
 import it.unibo.interfaces.StationRPI;
 import it.unibo.sensors.impl.*;
 import it.unibo.sensors.simulated.impl.*;
@@ -22,6 +23,7 @@ public class Builder {
 	public AirMonitor testAir;
 	public GroundMonitor testGND;
 	public WaterMonitor testWTR;
+	public PMPHMonitor testPMPH;
 
 	/**
 	 * 
@@ -56,6 +58,11 @@ public class Builder {
 
 			addWaterSensor() ;
 			break;
+		case "PMPH":
+			testPMPH = new PMPHMonitor(name, coord, key);
+			stat = testPMPH;
+			addPMPHSensor() ;
+			break;
 		default:
 			System.out.println("Invalid month");
 			break;
@@ -77,12 +84,18 @@ public class Builder {
 	 */
 	public void addAirSensor() {
 		OnBoardDebugger deb = new OnBoardDebugger(testAir);
-		testAir.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP","°",
-				deb));
-		testAir.addHumiditySensor(new HumidSensorArduino("DHT11", "HMD","%", deb));
-		testAir.addLightSensor(new LightSensorArduino("LDRGL5528", "LGH","%", deb));
-		testAir.addRainSensor(new RainSensorArduino("RAINECO", "RL","%", deb));
-		testAir.addSpeedSensor(new SpeedSensorArduino("HC020K", "SPD","km/h", deb));
+		testAir.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP","°"));
+		testAir.addHumiditySensor(new HumidSensorArduino("DHT11", "HMD","%"));
+		testAir.addLightSensor(new LightSensorArduino("LDRGL5528", "LGH","%"));
+		testAir.addRainSensor(new RainSensorArduino("RAINECO", "RL","%"));
+		testAir.addSpeedSensor(new SpeedSensorArduino("HC020K", "SPD","km/h"));
+	}
+	/**
+	 * Add Sensor to Air Station
+	 */
+	public void addPMPHSensor() {
+		testPMPH.addPMSensor(new PMSensorArduino("PPD42NS", "PM1","cft"));
+		//testPMPH.addPHSensor(new PMSensorArduino("SEN0161", "PHS","ph"));
 	}
 
 	/**
@@ -91,11 +104,10 @@ public class Builder {
 	public void addGroundSensor() {
 		
 		OnBoardDebugger deb = new OnBoardDebugger(testGND);
-		testGND.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP","°",
-				deb));
+		testGND.addTemperatureSensor(new TempSensorSim("DS18B20", "TMP"
+				));
 		// testGND.addTiltSensor(new TiltSensorSim("TLTECO", "ALL"));
-		testGND.addHumiditySensor(new HumidSensorArduino("HGMECO", "HMD","%", deb));
-		testGND.addDipSensor(new ShockSensorArduino("TLTECO", "ALL","#", deb));
+		testGND.addHumiditySensor(new HumidSensorSim("HGMECO", "HMD"));
 
 	}
 
@@ -112,13 +124,15 @@ public class Builder {
 	public static void main(String[] args) throws InterruptedException {
 		
 		Builder bl = new Builder();
-		bl.CreateMonitor("Water", "SimulatedWaterStationCesena", new Coordinate(
-				44.139307, 12.237057), 3, "NOSQL");
+//		bl.CreateMonitor("Water", "SimulatedWaterStationCesena", new Coordinate(
+//				44.139307, 12.237057), 3, "NOSQL");
+//		bl.CreateMonitor("PMPH", "PMPHStationCesena", new Coordinate(
+//				44.139307, 12.237057), 4, "NOSQL");
 //		bl.CreateMonitor("Ground", "SimulatedGroundStationCesena",
-//				new Coordinate(44.139307, 12.237057), 2);
+//				new Coordinate(44.139307, 12.237057), 2,"NOSQL");
 
-//		bl.CreateMonitor("Water", "SimulatedWaterStationCesena",
-//				new Coordinate(44.139307, 12.237057), 1);
+		bl.CreateMonitor("Air", "AirStationCesenaMontalti",
+				new Coordinate(44.14040, 12.24431), 1,"NOSQL");
 
 		//
 		// Thread.sleep(500);

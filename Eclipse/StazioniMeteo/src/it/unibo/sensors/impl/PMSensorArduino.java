@@ -55,7 +55,7 @@ public class PMSensorArduino extends SensorArduino {
 		// arduino serial com setup
 		if (initSerialCom(this)) {
 			// keyword arduino request
-			arduino.sendData("getPM=");
+			arduino.sendData("getPM1=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
 			IMeasure mes=getFloatValue();
