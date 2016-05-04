@@ -56,7 +56,9 @@ public class TempSensorArduino extends SensorArduino {
 			arduino.sendData("getTemp=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
-			return getFloatValue();
+			IMeasure mes=getFloatValue();
+			mes.setUOM(getUOM());
+			return mes;
 		} else
 			return null;
 	}

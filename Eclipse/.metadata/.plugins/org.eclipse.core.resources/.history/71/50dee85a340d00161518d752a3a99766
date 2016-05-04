@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<DB_USER>root</DB_USER>
+	<DB_PASS>28mamprenar</DB_PASS>
+	<DB_PATH>jdbc:mysql://127.0.0.1/</DB_PATH>
+	<DB_NAME>RCSdb</DB_NAME>	
+	
+	<SERIAL_PORT>COM3</SERIAL_PORT>
+	<DATA_RATE>9600</DATA_RATE>
+	<UPDATE>900</UPDATE>
+	<DEBUG>900</DEBUG>
+</configuration> 

@@ -71,7 +71,7 @@ public class PMPHMonitor extends StationRPI {
 		OnBoardDebugger deb = new OnBoardDebugger(testAir);
 
 		System.out.println("Create new STATION name:" + testAir.name);
-		testAir.addPMSensor(new PMSensorArduino("DSM501A", "PM_","cfp"));
+		testAir.addPMSensor(new PM1SensorArduino("DSM501A", "PM_","cfp"));
 		testAir.addPHSensor(new PHSensorArduino("PHS", "PH_","ph", deb));
 		System.out.println(testAir.monitorUpdates());
 	}

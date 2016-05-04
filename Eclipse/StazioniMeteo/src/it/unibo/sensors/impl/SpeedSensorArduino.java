@@ -42,13 +42,16 @@ public class SpeedSensorArduino extends SensorArduino {
 			arduino.sendData("getSpeed=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
-			return getFloatValue();
+
+			IMeasure mes= getFloatValue();
+			mes.setUOM(getUOM());
+			return mes; 
 		} else
 			return null;
 	}
 
 	public static void main(String[] args) {
-		SpeedSensorArduino testSens = new SpeedSensorArduino("HC020K", "SPD","");
+		SpeedSensorArduino testSens = new SpeedSensorArduino("HC020K", "SPD","kmh");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

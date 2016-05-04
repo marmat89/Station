@@ -75,7 +75,11 @@ public class SerialCom extends Observable implements SerialPortEventListener {
 		while (portEnum.hasMoreElements()) {
 			CommPortIdentifier currPortId = (CommPortIdentifier) portEnum
 					.nextElement();
+
+			System.out.println(currPortId);
 			for (String portName : PORT_NAMES) {
+
+				System.out.println(portName);
 				if (currPortId.getName().equals(portName)) {
 					portId = currPortId;
 					break;
@@ -86,9 +90,11 @@ public class SerialCom extends Observable implements SerialPortEventListener {
 		portEnum = CommPortIdentifier.getPortIdentifiers();
 		if (portId == null) 
 		while (portEnum.hasMoreElements()) {
+			
 			CommPortIdentifier currPortId = (CommPortIdentifier) portEnum
 					.nextElement();
 
+			System.out.println(currPortId.getName());
 			if (currPortId.getName().equals(MY_PORT)) {
 				portId = currPortId;
 				break;

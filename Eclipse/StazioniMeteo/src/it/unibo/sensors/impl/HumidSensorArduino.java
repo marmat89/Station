@@ -75,18 +75,20 @@ public class HumidSensorArduino extends SensorArduino {
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
 			// For Level Sensor we return an int value from 0 to 100
-			return getIntValue();
+			IMeasure mes=getIntValue();
+			mes.setUOM(getUOM());
+			return mes; 
 		} else
 			return null;
 
 	}
 
 	public static void main(String[] args) {
-		HumidSensorArduino testSens = new HumidSensorArduino("DHT11", "HMD","");
+		HumidSensorArduino testSens = new HumidSensorArduino("DHT11", "HMD","%");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Arduino measure:"
-				+ (testSens.getSurvey()).getValue());
+				+ (testSens.getSurvey()).getValue()+ testSens.getSurvey().getUOM());
 
 	}
 

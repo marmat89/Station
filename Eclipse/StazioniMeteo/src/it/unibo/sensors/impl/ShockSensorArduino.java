@@ -42,7 +42,9 @@ public class ShockSensorArduino extends SensorArduino {
 			arduino.sendData("getShock=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
-			return getIntValue();
+			IMeasure mes=getIntValue();
+			mes.setUOM(getUOM());
+			return mes; 
 		} else
 			return null;
 	}

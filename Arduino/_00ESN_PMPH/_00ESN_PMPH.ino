@@ -26,11 +26,9 @@ unsigned long starttime;
 unsigned long lowpulseoccupancy = 0;
   
 
-float dustDensity05=0;
 
 float dustDensity1=0;
 
-float dustDensity25=0;
 
 //COUNTER : count of succes and error 
 int errorCount=0;
@@ -45,10 +43,12 @@ void setup() {
 
 void loop()
 {
-  
-  dustDensity05=getPM(8);
+  int i =0;
   dustDensity1=getPM(9);
-  dustDensity25=getPM(11);
+  while (i<10){
+  i++;
+  delay(1000);
+  }
 }
 
 float getPH()
@@ -81,6 +81,7 @@ float getPH()
 
 
 float getPM(int pm){
+  starttime = millis();
   float calcVoltage = 0;
   float ratio = 0;
   float dustDensity=0;
@@ -125,18 +126,11 @@ void serialEvent() {
       //Serial.println("--Arduino exeCommand: getTemp ");
       Serial.println(getPH());
     }
-    if (inputString=="getPM05"){
-      //Serial.println("--Arduino exeCommand: getSpeed ");
-      Serial.println(dustDensity05); 
-    } 
     if (inputString=="getPM1"){
       //Serial.println("--Arduino exeCommand: getSpeed ");
       Serial.println(dustDensity1); 
     } 
-    if (inputString=="getPM25"){
-      //Serial.println("--Arduino exeCommand: getSpeed ");
-      Serial.println(dustDensity25); 
-    } 
+    
     inputString = "";
     stringComplete = false;
   }

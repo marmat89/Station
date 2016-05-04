@@ -52,7 +52,9 @@ public class LevelSensorArduino extends SensorArduino {
 			arduino.sendData("getLevel=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
-			return getIntValue();
+			IMeasure mes=getIntValue();
+			mes.setUOM(getUOM());
+			return mes; 
 		} else
 			return null;
 
@@ -63,7 +65,7 @@ public class LevelSensorArduino extends SensorArduino {
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"
-				+ (testSens.getSurvey()).getValue());
+				+ (testSens.getSurvey()).getValue()+ testSens.getSurvey().getUOM());
 
 	}
 

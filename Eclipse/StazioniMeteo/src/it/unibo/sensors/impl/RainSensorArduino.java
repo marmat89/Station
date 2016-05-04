@@ -58,7 +58,9 @@ public class RainSensorArduino extends SensorArduino implements Observer {
 			arduino.sendData("getRain=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
-			return getIntValue();
+			IMeasure mes=getIntValue();
+			mes.setUOM(getUOM());
+			return mes; 
 		} else
 			return null;
 

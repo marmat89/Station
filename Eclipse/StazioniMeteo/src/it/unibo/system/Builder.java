@@ -83,7 +83,6 @@ public class Builder {
 	 * Add Sensor to Air Station
 	 */
 	public void addAirSensor() {
-		OnBoardDebugger deb = new OnBoardDebugger(testAir);
 		testAir.addTemperatureSensor(new TempSensorArduino("DS18B20", "TMP","°"));
 		testAir.addHumiditySensor(new HumidSensorArduino("DHT11", "HMD","%"));
 		testAir.addLightSensor(new LightSensorArduino("LDRGL5528", "LGH","%"));
@@ -94,8 +93,8 @@ public class Builder {
 	 * Add Sensor to Air Station
 	 */
 	public void addPMPHSensor() {
-		testPMPH.addPMSensor(new PMSensorArduino("PPD42NS", "PM1","cft"));
-		//testPMPH.addPHSensor(new PMSensorArduino("SEN0161", "PHS","ph"));
+		testPMPH.addPMSensor(new PM1SensorArduino("PPD42NS", "PM1","cft"));
+		//testPMPH.addPHSensor(new PHSensorArduino("SEN0161", "PHS","ph"));
 	}
 
 	/**
@@ -126,13 +125,13 @@ public class Builder {
 		Builder bl = new Builder();
 //		bl.CreateMonitor("Water", "SimulatedWaterStationCesena", new Coordinate(
 //				44.139307, 12.237057), 3, "NOSQL");
-//		bl.CreateMonitor("PMPH", "PMPHStationCesena", new Coordinate(
-//				44.139307, 12.237057), 4, "NOSQL");
+		bl.CreateMonitor("PMPH", "PMPHStationCesena", new Coordinate(
+				44.14040, 12.24431), 4, "NOSQL");
 //		bl.CreateMonitor("Ground", "SimulatedGroundStationCesena",
 //				new Coordinate(44.139307, 12.237057), 2,"NOSQL");
 
-		bl.CreateMonitor("Air", "AirStationCesenaMontalti",
-				new Coordinate(44.14040, 12.24431), 1,"NOSQL");
+//		bl.CreateMonitor("Air", "AirStationCesenaMontalti",
+//				new Coordinate(44.14040, 12.24431), 1,"NOSQL");
 
 		//
 		// Thread.sleep(500);

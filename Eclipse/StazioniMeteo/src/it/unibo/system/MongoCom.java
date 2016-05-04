@@ -86,7 +86,7 @@ public class MongoCom implements Communicator{
 		while(it.hasNext()){
 			Gson gson = new Gson();
 			AssembledList element = (AssembledList) it.next();
-			MongoMeasure mm = new MongoMeasure(stat.getName(), stat.ID, stat.getPosition().getLat(), stat.getPosition().getLon(), element.sen.getName(), element.sen.getDatatype(), element.sen.getSurvey().getValue(),element.sen.getSurvey().getUOM());
+			MongoMeasure mm = new MongoMeasure(stat.getName(), stat.ID, stat.getPosition().getLat(), stat.getPosition().getLon(), element.sen.getName(), element.sen.getDatatype(), element.lastMes.getValue(),element.lastMes.getUOM());
 	        String jsonString = gson.toJson(mm);
 					DBObject dbObject = (DBObject)JSON.parse(jsonString);
 					collection.insert(dbObject);

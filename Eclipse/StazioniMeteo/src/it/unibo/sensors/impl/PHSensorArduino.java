@@ -66,7 +66,7 @@ public class PHSensorArduino extends SensorArduino {
 	
 
 	public static void main(String[] args) {
-		PHSensorArduino testSens = new PHSensorArduino("PHS", "PH_","");
+		PHSensorArduino testSens = new PHSensorArduino("PHS", "PH_","%");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"

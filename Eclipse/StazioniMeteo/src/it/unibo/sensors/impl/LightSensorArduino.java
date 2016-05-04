@@ -64,18 +64,21 @@ public class LightSensorArduino extends SensorArduino {
 			arduino.sendData("getLight=");
 			// used for attend sensor respond for N seconds
 			attendSerialCom();
-			return getIntValue();
+
+			IMeasure mes=getIntValue();
+			mes.setUOM(getUOM());
+			return mes; 
 		} else
 			return null;
 
 	}
 
 	public static void main(String[] args) {
-		LightSensorArduino testSens = new LightSensorArduino("LDRGL5528", "LGH","");
+		LightSensorArduino testSens = new LightSensorArduino("LDRGL5528", "LGH","%");
 		System.out.println("Create new SENSOR name:" + testSens.getName()
 				+ " with dataType:" + testSens.getDatatype());
 		System.out.println("Test simulated measure:"
-				+ (testSens.getSurvey()).getValue());
+				+ (testSens.getSurvey()).getValue()+ testSens.getSurvey().getUOM());
 
 	}
 }

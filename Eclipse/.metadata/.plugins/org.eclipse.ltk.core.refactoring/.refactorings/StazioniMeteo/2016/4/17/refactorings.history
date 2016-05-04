@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;it.unibo.sensors.impl.PMSensorArduino&apos; to &apos;PM1SensorArduino&apos;&#x0D;&#x0A;- Original project: &apos;StazioniMeteo&apos;&#x0D;&#x0A;- Original element: &apos;it.unibo.sensors.impl.PMSensorArduino&apos;&#x0D;&#x0A;- Renamed element: &apos;it.unibo.sensors.impl.PM1SensorArduino&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PMSensorArduino&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;it.unibo.sensors.impl{PMSensorArduino.java[PMSensorArduino" matchStrategy="1" name="PM1SensorArduino" qualified="false" references="true" similarDeclarations="false" stamp="1461835958481" textual="false" version="1.0"/>
+</session>
