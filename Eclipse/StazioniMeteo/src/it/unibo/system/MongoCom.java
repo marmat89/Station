@@ -29,7 +29,8 @@ import java.util.Locale;
 
 import static java.util.Arrays.asList;
 import com.google.gson.Gson;
-public class MongoCom implements Communicator{
+
+public class MongoCom implements Communicator {
 
 	private String user;
 	private String database;
@@ -38,78 +39,76 @@ public class MongoCom implements Communicator{
 	private MongoClient mongoClient;
 	private DB dataBase;
 	private DBCollection collection;
-	
-	
+
 	public MongoCom(String user, String database, char[] password, String collectionName) {
 		super();
 		this.user = user;
 		this.database = database;
-		this.password = password;	
-		this.collectionName = collectionName;	
-		
+		this.password = password;
+		this.collectionName = collectionName;
+
 	}
 
+	public boolean testConnection(String DataBaseName) {
 
-	
-
-	public boolean testConnection(String DataBaseName){
-		
-		if(dataBase.getCollection(DataBaseName) != null){
+		if (dataBase.getCollection(DataBaseName) != null) {
 			System.out.println("Connected to DataBase:" + DataBaseName);
 			System.out.println("SEND TO NOSQL");
-			String json = "{'database' : 'mkyongDB','table' : 'hosting'," +
-					  "'detail' : {'records' : 99, 'index' : 'vps_index1', 'active' : 'true'}}}";
-					DBObject dbObject = (DBObject)JSON.parse(json);
-					collection=dataBase.getCollection(DataBaseName);
-					collection.insert(dbObject);
+
+			MongoMeasure mm = new MongoMeasure("Test Station", 1, 0, 0, "getName()", "getDatatype()", 0, "getUOM()");
+
+//			Gson gson = new Gson();
+//			String jsonString = gson.toJson(mm);
+//			DBObject dbObject = (DBObject) JSON.parse(jsonString);
+
+//			System.out.println(mm.MeasureTime);
+			collection.insert(mm.object);
+
+			System.out.println("Test Station Measure Update");
+
 			return true;
-			}
+		}
 		System.err.println("Connection Failed to DataBase:" + DataBaseName);
 		return false;
 	}
-	
+
 	public static void main(String[] args) {
 
-		MongoCom mc= new MongoCom("marmat89","esn_nosql","28mamprenar".toCharArray(),"test");
-		
-		mc.turnOnConnection();
-		
-		mc.testConnection("test");
+		MongoCom mc = new MongoCom("marmat89", "esn_nosql", "28mamprenar".toCharArray(), "debug");
 
+		mc.turnOnConnection();
+
+		mc.testConnection("debug");
 
 	}
 
 	@Override
 	public void sendMes(StationRPI stat, List<AssembledList> lastUpdate) {
-	
-		Iterator it=lastUpdate.iterator();
-		while(it.hasNext()){
-			Gson gson = new Gson();
+
+		Iterator it = lastUpdate.iterator();
+		while (it.hasNext()) {
 			AssembledList element = (AssembledList) it.next();
-			MongoMeasure mm = new MongoMeasure(stat.getName(), stat.ID, stat.getPosition().getLat(), stat.getPosition().getLon(), element.sen.getName(), element.sen.getDatatype(), element.lastMes.getValue(),element.lastMes.getUOM());
-	        String jsonString = gson.toJson(mm);
-					DBObject dbObject = (DBObject)JSON.parse(jsonString);
-					collection.insert(dbObject);
+			MongoMeasure mm = new MongoMeasure(stat.getName(), stat.ID, stat.getPosition().getLat(),
+					stat.getPosition().getLon(), element.sen.getName(), element.sen.getDatatype(),
+					element.lastMes.getValue(), element.lastMes.getUOM());
+			
+			collection.insert(mm.object);
 		}
 	}
 
 	@Override
 	public void turnOffConnection() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void turnOnConnection() {
-		MongoCredential credential = MongoCredential.createCredential(user,
-                database,
-                password);
-		mongoClient = new MongoClient(new ServerAddress(
-				"ds019480.mlab.com", 19480),
-				Arrays.asList(credential));
+		MongoCredential credential = MongoCredential.createCredential(user, database, password);
+		mongoClient = new MongoClient(new ServerAddress("ds019480.mlab.com", 19480), Arrays.asList(credential));
 
 		dataBase = mongoClient.getDB("esn_nosql");
-		
-		collection=dataBase.getCollection(collectionName);
-	}	
+
+		collection = dataBase.getCollection(collectionName);
+	}
 }

@@ -123,12 +123,12 @@ public class Builder {
 	public static void main(String[] args) throws InterruptedException {
 		
 		Builder bl = new Builder();
-//		bl.CreateMonitor("Water", "SimulatedWaterStationCesena", new Coordinate(
-//				44.139307, 12.237057), 3, "NOSQL");
-		bl.CreateMonitor("PMPH", "PMPHStationCesena", new Coordinate(
-				44.14040, 12.24431), 4, "NOSQL");
-//		bl.CreateMonitor("Ground", "SimulatedGroundStationCesena",
-//				new Coordinate(44.139307, 12.237057), 2,"NOSQL");
+		bl.CreateMonitor("Water", "SimulatedWaterStationCesena", new Coordinate(
+				44.139307, 12.237057), 3, "NOSQL");
+//		bl.CreateMonitor("PMPH", "PMPHStationCesena", new Coordinate(
+//				44.14040, 12.24431), 4, "NOSQL");
+		bl.CreateMonitor("Ground", "SimulatedGroundStationCesena",
+				new Coordinate(44.139307, 12.237057), 2,"NOSQL");
 
 //		bl.CreateMonitor("Air", "AirStationCesenaMontalti",
 //				new Coordinate(44.14040, 12.24431), 1,"NOSQL");

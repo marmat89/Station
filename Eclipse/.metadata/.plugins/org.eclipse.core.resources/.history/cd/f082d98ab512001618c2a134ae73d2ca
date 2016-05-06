@@ -1,0 +1,51 @@
+package it.unibo.util;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.joda.time.DateTime;
+
+import it.unibo.system.MongoCom;
+
+public class MongoMeasure {
+	private String StationName;
+	private int StationID;
+	private double StationPositionLat;
+	private double StationPositionLon;
+	private String SensorName;
+	private String SensorDataType;
+	private Object SensorValue;
+	private String SensorUOM;
+	private String MeasureTime;
+	public MongoMeasure(String stationName, int stationID, double stationPositionLat, double stationPositionLon,
+			String sensorName, String sensorDataType, Object sensorValue, String UOM) {
+		super();
+		StationName = stationName;
+		StationID = stationID;
+		StationPositionLat = stationPositionLat;
+		StationPositionLon = stationPositionLon;
+		SensorName = sensorName;
+		SensorDataType = sensorDataType;
+		SensorValue = sensorValue;
+	      Date dNow = new Date( );
+	      SimpleDateFormat ft = new SimpleDateFormat ("yyyy.MM.dd hh:mm:ss");
+	      int hh = dNow.getHours();
+	      int mn = dNow.getMinutes();
+	      int ss = dNow.getSeconds();
+	      int gg = dNow.getDate();
+	      int mm = (dNow.getMonth() + 1);
+	      int aa = dNow.getYear();
+
+	      String data_corr= aa + "." + mm + "." + aa;
+	      String ora_corr= hh + ":" + mn + ":" + ss;
+	      MeasureTime= data_corr + " " + ora_corr;
+	    //MeasureTime = ft.format(dNow);
+		SensorUOM=UOM;
+	}
+	public static void main(String[] args) {
+
+		MongoMeasure mm = new MongoMeasure("Test Station", 1, 0, 0, "getName()", "getDatatype()", 0,"getUOM()");
+	     System.out.println(mm.MeasureTime); 
+
+	}
+}
